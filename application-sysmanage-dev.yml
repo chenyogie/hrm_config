@@ -5,7 +5,7 @@ spring:
     name: HRM-SYSMANAGE
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/hrm_sysmanage
+    url: jdbc:mysql://localhost:3306/hrm_sysmanage?useSSL=false
     username: root
     password: 802134
 mybatis-plus:
