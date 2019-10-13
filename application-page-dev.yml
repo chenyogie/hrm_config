@@ -1,0 +1,13 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: HRM-PAGE
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hrm_page?useSSL=false
+    username: root
+    password: 802134
+mybatis-plus:
+  mapper-locations: classpath:com/yogie/hrm/mapper/*Mapper.xml
+  type-aliases-package: com.yogie.hrm.domain,com.yogie.hrm.query
